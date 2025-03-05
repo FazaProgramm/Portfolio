@@ -344,7 +344,7 @@ body.dark .project-box {
     gap: 30px;
 }
 
-.icon {
+.social_icons a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -353,6 +353,7 @@ body.dark .project-box {
     border-radius: 50%;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
+    color: rgb(68, 68, 68);
 }
 
 .icon:hover {
@@ -472,9 +473,10 @@ h3 {
 .about-info::-webkit-scrollbar-thumb {
     background-color: var(--first-color);
 }
+
 .about-info::-webkit-scrollbar-track {
     background: #ffffff;
-  }
+}
 
 .about-info p {
     text-align: center;
@@ -751,6 +753,18 @@ body.dark .modal-footer {
     gap: 30px;
 }
 
+.footer-social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    color: rgb(68, 68, 68);
+}
+
 .bottom-footer {
     font-size: 14px;
     margin-top: 10px;
@@ -914,4 +928,8 @@ body.dark .bottom-footer {
 
 .dark .about-info span {
     color: rgb(0, 213, 255);
+}
+
+.light {
+    color: #e7e7e7;
 }

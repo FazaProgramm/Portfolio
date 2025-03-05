@@ -1,11 +1,21 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const toggleSwitch = document.getElementById('toggle-switch');
     const body = document.body;
+    const icon = document.querySelectorAll('.icon')
+    icon.forEach((icon) => {
+        toggleSwitch.addEventListener('click', () => {
+            icon.classList.toggle('light');
+        });
+    })
     toggleSwitch.addEventListener('click', () => {
         body.classList.toggle('dark');
     });
 });
-
+// const elements = document.querySelectorAll('.my-class');
+// elements.forEach((element) => {
+//     console.log(element.textContent); // Har bir elementning textini chiqarish
+// });
 /* -- Navigation Function -- */
 function myMenuFunction() {
     var menuBtn = document.getElementById("myNavMenu");
